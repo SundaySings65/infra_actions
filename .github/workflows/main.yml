@@ -61,4 +61,4 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ${{ secrets.DOCKER_PASSWORD }}/infra_actions:v0 
+          tags: sundaysings65/infra_actions:latest
